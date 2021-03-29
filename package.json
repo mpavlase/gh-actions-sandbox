@@ -1,22 +1,15 @@
 {
-  "name": "gh-actions-sandbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.8",
+    "postcss-nested": "^5.0.5",
+    "postcss-simple-vars": "^6.0.3",
+    "tailwindcss": "^2.0.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mpavlase/gh-actions-sandbox.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mpavlase/gh-actions-sandbox/issues"
-  },
-  "homepage": "https://github.com/mpavlase/gh-actions-sandbox#readme",
   "dependencies": {
-    "cowsay": "^1.4.0"
+    "browser-sync": "^2.26.14",
+    "postcss-import": "^14.0.0"
   }
 }

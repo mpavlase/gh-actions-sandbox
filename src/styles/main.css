@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilites;
+
+/*
+$headerMainColor: #3a3;
+$headerMainColor: #202833;
+*/
+
+nav {
+    @apply bg-headline text-titleText;
+}
+
+nav li {
+        /*@apply pl-6 sm:px-2 inline-block sm:inline flex;*/
+        @apply p-2 mx-2 align-middle;
+        a {
+            border-bottom: 2px solid #777;
+        }
+}
+header {
+    h1, h2 {
+        @apply p-3;
+    }
+    h1 {
+        @apply text-5xl text-white;
+    }
+    h2 {
+        @apply text-2xl text-titleText;
+    }
+}
+
+.img-small {
+    background-image: url('titulka-squared.jpg');
+}
+
+.land-header {
+    @apply bg-titleBg text-white;
+    padding-top: 40px;
+}
+
+article {
+    @apply p-4;
+    @apply bg-titleText;
+    /*
+    background-color: #ffefd9;
+    */
+    background-color: #FFDEB3;
+    background-color: #fff;
+
+    h1 {
+        @apply text-black text-4xl;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    @apply text-justify py-2;
+}
+
