@@ -15,3 +15,5 @@ jobs:
         node-version: 15.x
     - name: execute main.js with node.js
       run: node main.js
+    - name: compile css
+      run: gulp css
