@@ -17,3 +17,9 @@ jobs:
       run: node main.js
     - name: compile css
       run: gulp css
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: _src
+
