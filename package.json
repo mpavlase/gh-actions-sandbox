@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "browser-sync": "^2.26.14",
+    "cowsay": "^1.4.0",
     "postcss-import": "^14.0.0"
   }
 }
