@@ -1,0 +1,13 @@
+name: my-ci
+on: [push]
+jobs:
+  build:
+    name: job-build-name
+    runs-on: ubuntu-latest
+    steps:
+    - name: GitHub Action for Yarn
+      uses: Borales/actions-yarn@v2.3.0
+      with:
+        cmd: install -g
+    - name: execute main.js with node.js
+      run: node main.js
